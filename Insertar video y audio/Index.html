@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" style="height: 100%; width: 100%">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Alejandro Blasco Garcia">
+		<meta name="copyright" content="Alejandro Blasco Garcia">
+		<meta name="description" content="HTML">
+		<meta name="keywords" content="Ciclos, Formativos, Informática, FP, DAW">
+        <meta name="date" content="12/11/2019">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+	
+		
+            <title>Practica 6</title>
+            </head>
+            <body style="height: 100%; width: 100%">
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"><img src="Fotos/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item dropdown ">
+                          <a class="dropdown-toggle nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">SEO</a>
+                            <a class="dropdown-item" href="#">Desarrollo Web</a>
+                            <a class="dropdown-item" href="#">Marketing Online</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button type="submit" class="btn btn-info" >Buscar</button>
+                      </form>
+                    </div>
+                    <li class="nav-item"> 
+                      <audio id="medio" controls>
+                        <source src="disparodepistola05.mp3" type='audio/mpeg; codecs="mp3"'>
+                          <source src="disparodepistola05.wav" type='audio/wav; codecs="wav"'>
+                        <source src="disparodepistola05.ogg" type='audio/ogg; codecs="vorbis"' >
+                   </audio>
+                    </li>
+                  </nav>
+                  
+                  
+                  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fad" data-ride="carousel">
+                    <div class="carousel-inner" >
+                      <div class="carousel-item active">
+                          <img src="Fotos/im3.png" class="d-block w-100" alt="im1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Fotos/im2.png" class="d-block w-100" alt="im2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Fotos/im1.png" class="d-block w-100" alt="im3">
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="jumbotron">
+                      <div style="margin-left: 2em">
+                    <h1 class="display-4" >Hello, world!</h1>
+                    <p class="lead" >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4" >
+                    <p >It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <button type="button" class="btn btn-info">Learn more</button>
+                    </div>
+                  </div>
+
+
+                  <div style="width: 90%;margin-left:5%; margin-right: 5%; margin-top:3em; margin-bottom:3em;">
+                  <h1 style="text-align: center; margin-bottom: 1em">Artículos</h1>
+
+                  <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="margin-bottom: 1em">
+                      <video id="medio" width="700" height="350" class="card-img-top" controls loop autoplay>
+                        <source src="Tiempo.mp4">
+                        <source src="Tiempo.ogg">
+                        <source src="Tiempo.webm">
+                        
+                   </video>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"><button type="button" class="btn btn-info">Go somewhere</button></p>
+                      </div>
+                    </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="margin-bottom: 1em">
+                      <video id="medio" width="700" height="350" class="card-img-top" controls loop autoplay>
+                        <source src="Tiempo.mp4">
+                        <source src="Tiempo.ogg">
+                        <source src="Tiempo.webm">
+                        
+                   </video>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"><button type="button" class="btn btn-info">Go somewhere</button></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card" style="margin-bottom: 1em">
+                      <video id="medio" width="700" height="350" class="card-img-top" controls loop autoplay>
+                        <source src="Tiempo.mp4">
+                        <source src="Tiempo.ogg">
+                        <source src="Tiempo.webm">
+                        
+                   </video>
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"><button type="button" class="btn btn-info">Go somewhere</button></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <footer class="bg-info" style="clear: both; height: 6em;  margin-top: 5em">
+                    <h2 style="float: left; padding-top: 1em; padding-left: 1em; color: white">Eniun.com</h2>
+                    <p style="float: right; padding-top: 2em; padding-right: 1em; color: white">Políticas de privacidad y cookies</p>
+                </footer>
+
+
+
+</body>
+</html>
+
